@@ -1,3 +1,8 @@
+# Set a min number of rows! Overfitting
+# Level control
+# Purity control
+# random forest
+
 data <- read.csv("data/classes.csv", header=TRUE)
 
 cols <- dim(data)[2]
@@ -48,7 +53,7 @@ get_right_leaf <- function(cdata, index){
 
 gen_tree <- function(cdata, level){
 
-  # print(level)
+  print(level)
 
   crows <- dim(cdata)[1]
   ccols <- dim(cdata)[2]

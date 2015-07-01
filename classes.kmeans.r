@@ -1,3 +1,11 @@
+# find a starting point to generate
+# silluett:
+#   clv:
+#   clValid
+#   clusterSim
+#   indexS
+#   cosine similarity
+
 data <- read.csv("data/classes.csv", header=TRUE)
 
 cols <- dim(data)[2]

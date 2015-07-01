@@ -1,3 +1,8 @@
+# Limit the max number of suggestions based on the maximum number classes in
+# in the semester
+
+# page 68 cosine
+
 # setwd("\\\\washjeff.edu\\shares\\YR2018\\britosampaiog\\datastore\\My Documents\\CIS\\SummerResearch")
 
 # install.packages(ROCR)
@@ -62,6 +67,7 @@ nn <- t( apply( test_data, 1, function(x) ( knn(train_data, x) ) ) )
 
 
 
+# prediction does not do the calculations
 
 # predAct <- data.frame(nn_count,new_student)
 # prf(predAct)

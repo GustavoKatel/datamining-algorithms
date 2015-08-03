@@ -10,6 +10,9 @@
   "license": "MIT",
   "dependencies": {
     "chance": "^0.7.5",
-    "commander": "^2.8.1"
+    "commander": "^2.8.1",
+    "lodash": "^3.10.0",
+    "mysql": "^2.8.0",
+    "sequelize": "^3.4.1"
   }
 }
